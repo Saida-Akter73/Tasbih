@@ -1,0 +1,28 @@
+.main-box{
+  display: flex;
+  gap: 20px;
+  justify-content: space-around;
+  background-color: #705ef5;
+  padding: 50px;
+}
+button {
+  background-color: #897ceb;
+  padding: 10px 20px;
+  font-size: 18px;
+  border: 2px solid #30126b;
+  border-radius: 10px;
+  margin-right: 10px;
+}
+.number-box {
+  background-color: #897ceb;
+  height: 100px;
+  width: 100px;
+  font-size: 30px;
+  font-weight: 700;
+  border: 2px solid #30126b;
+  border-radius: 10px;
+  margin: 10px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
