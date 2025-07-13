@@ -5,9 +5,13 @@
   background-color: #705ef5;
   padding: 50px;
 }
+.btn{
+  display: flex;
+  margin: 0 auto;
+}
 button {
   background-color: #897ceb;
-  padding: 10px 20px;
+  padding: 5px 10px;
   font-size: 18px;
   border: 2px solid #30126b;
   border-radius: 10px;
@@ -25,4 +29,78 @@ button {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+
+/* Tab view */
+@media screen and (min-width:576px) and (max-width:768px){
+  .main-box{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 0 auto;
+    justify-content: space-around;
+
+  }
+  button {
+  padding: 5px;
+  font-size: 16px;
+  border: 2px solid #7458ac;
+  margin-bottom: 10px;
+}
+.btn{
+  margin: 0 auto;
+}
+.btn .count_btn button{
+  margin-left: 45px;
+}
+.btn .reset_btn button{
+  margin-left: 0px;
+}
+
+.number-box{
+  margin: 0 auto;
+  margin-bottom: 50px;
+  font-size: 27px;
+}
+
+}
+
+
+
+/* mobile view */
+@media screen and (min-width:320px) and (max-width:575.98px){
+  .main-box{
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 0 auto;
+
+  }
+  button {
+  padding: 5px;
+  font-size: 12px;
+  border: 2px solid #30126b;
+  margin-bottom: 10px;
+}
+.btn{
+  margin: 0 auto;
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+.btn .count_btn button{
+  margin-left: 45%;
+}
+.btn .reset_btn button{
+  margin-right: 45%;
+}
+
+.number-box{
+  margin: 0 auto;
+  margin-bottom: 50px;
+  font-size: 24px;
+}
+
 }
